@@ -1,0 +1,24 @@
+# API Keys and Environment
+.env
+*.env
+layered-backend/.env
+
+# Python Virtual Environment
+layered-backend/venv/
+__pycache__/
+*.pyc
+
+# JUCE Build Files
+*/Builds/
+*/JuceLibraryCode/
+LayeredPlugin/Builds/
+
+# IDE Files
+.vscode/
+.DS_Store
+*.swp
+
+# Compiled Files
+*.o
+*.exe
+*.dll
